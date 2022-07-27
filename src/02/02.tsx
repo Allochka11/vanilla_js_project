@@ -10,7 +10,7 @@ type LocalCityType = {
     title: string
     country: string
 }
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
@@ -46,5 +46,3 @@ export const student: StudentType = {
         }
     ]
 }
-console.log(student.address.city.country);
-console.log(student.technologies[0].title);
