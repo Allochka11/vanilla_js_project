@@ -15,6 +15,18 @@ type PropsType = {
     man: ManComponentType
 }
 
+let user = {
+    name: 'Alla',
+    age: 30,
+    address: {
+        country: 'Ukraine',
+        city: 'Kuiv',
+    }
+}
+
+
+
+
 export const ManComponent: React.FC<PropsType> = (props) => {
     const {title} = props;
     const {name} = props.man;
